@@ -11,7 +11,7 @@
 
 int moving; // Flag indicating whether PID is active
 
-void setup()
+void setup();
 {
   Serial.begin(115200); // Initialize serial communication at 115200 baud rate for debugging or logging
   Init_Motors();        // Set up motor control, including configuring PWM channels
